@@ -1,0 +1,92 @@
+check of param SIFT2M IMI2x12,PQ16 ['nprobe=16']
+/tmp/bench_polysemous does not exist, creating it
+Preparing dataset SIFT2M
+sizes: B (2000000, 128) Q (10000, 128) T (100000000, 128) gt (10000, 1000)
+Keeping 1048576 train vectors
+Training level-1 quantizer
+IVF quantizer trains alone...
+Training IVF residual
+  Input training set too big (max size is 65536), sampling 65536 / 1048576 vectors
+computing residuals
+MultiIndexQuantizer::search: 0:32768 / 65536
+MultiIndexQuantizer::search: 32768:65536 / 65536
+training 16x256 product quantizer on 65536 vectors in 128D
+Training PQ slice 0/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.11 s, search 0.89 s): objective=3.03144e+07 imbalance=1.600 nsplit=0
+Training PQ slice 1/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.11 s, search 0.90 s): objective=3.44185e+07 imbalance=1.472 nsplit=0
+Training PQ slice 2/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.89 s): objective=3.52699e+07 imbalance=1.404 nsplit=0
+Training PQ slice 3/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.89 s): objective=3.15787e+07 imbalance=1.525 nsplit=0
+Training PQ slice 4/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.89 s): objective=3.69628e+07 imbalance=1.499 nsplit=0
+Training PQ slice 5/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.90 s): objective=3.51174e+07 imbalance=1.431 nsplit=0
+Training PQ slice 6/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.89 s): objective=3.56737e+07 imbalance=1.460 nsplit=0
+Training PQ slice 7/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.12 s, search 0.90 s): objective=3.87138e+07 imbalance=1.447 nsplit=0
+Training PQ slice 8/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.09 s, search 0.89 s): objective=3.71331e+07 imbalance=1.463 nsplit=0
+Training PQ slice 9/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.09 s, search 0.90 s): objective=3.50825e+07 imbalance=1.487 nsplit=0
+Training PQ slice 10/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.90 s): objective=3.5828e+07 imbalance=1.439 nsplit=0
+Training PQ slice 11/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.08 s, search 0.89 s): objective=3.88827e+07 imbalance=1.435 nsplit=0
+Training PQ slice 12/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.08 s, search 0.89 s): objective=3.06711e+07 imbalance=1.582 nsplit=0
+Training PQ slice 13/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.11 s, search 0.89 s): objective=3.44783e+07 imbalance=1.440 nsplit=0
+Training PQ slice 14/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.12 s, search 0.90 s): objective=3.51215e+07 imbalance=1.447 nsplit=0
+Training PQ slice 15/16
+Clustering 65536 points in 8D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 24 (1.10 s, search 0.90 s): objective=3.18429e+07 imbalance=1.578 nsplit=0
+doing polysemous training for PQ
+precomputing IVFPQ tables type 2
+train done in 1014.309 s
+storing /tmp/bench_polysemous/SIFT2M_IMI2x12,PQ16_trained.index
+add 1900000:2000000, 75.240 s
+Add done in 79.184 s
+storing /tmp/bench_polysemous/SIFT2M_IMI2x12,PQ16_populated.index
+          	 R@1    R@10   R@100     time    %pass
+nprobe=16 	 0.2368 0.3203 0.3226    0.584    0.00
+ Prepare dataset in 0.519607067108, Training in 5.00679016113e-06, Adding vectors to dataset in 1.90734863281e-06, perform searches in 1101.95768809
+
+Traceback (most recent call last):
+  File "/faiss_1B.py", line 311, in <module>
+    print("experiment stops in" (t1 + t2 + t3 + t4))
+TypeError: 'str' object is not callable

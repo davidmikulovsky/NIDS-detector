@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+
+
+./algo_a.101.sif 'database_1K.txt' 'Q_1K_LESLIE_queries.txt' 100 '1K_LES' 12 &
+./algo_a.101.sif 'database_10K.txt' 'Q_10K_LESLIE_queries.txt' 1000 '10K_LES' 12 &
+./algo_a.101.sif 'database_100K.txt' 'Q_100K_LESLIE_queries.txt' 10000 '100K_LES' 12
+# ./algo_a.101.sif 'database_1M.txt' 'Q_1M_LESLIE_queries.txt' 10000 '1M_RAND' 12
+# ./algo_a.101.sif 'database_10M.txt' 'Q_10M_LESLIE_queries.txt' 10000 '10M_RAND' 12

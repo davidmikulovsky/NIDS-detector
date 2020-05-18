@@ -1,0 +1,175 @@
+[d23019@reedbush-u2 singularity-faiss]$ cat output_algo1.log
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_1K.txt
+arguments: queries_1K.txt
+arguments: 1000
+arguments: 0
+arguments: 256
+arguments: 100
+database built...
+[[ 1.  1. -1. ...,  1.  1.  1.]
+ [-1.  1.  1. ...,  1.  1. -1.]
+ [-1.  1. -1. ...,  1. -1.  1.]
+ ...,
+ [ 1. -1.  1. ...,  1. -1.  1.]
+ [-1.  1.  1. ..., -1. -1.  1.]
+ [ 1.  1.  1. ...,  1. -1.  1.]]
+[[-1.  1.  1. ..., -1.  1.  1.]
+ [ 1. -1. -1. ...,  1.  1. -1.]
+ [ 1. -1.  1. ...,  1.  1.  1.]
+ ...,
+ [ 1. -1.  1. ..., -1. -1.  1.]
+ [ 1.  1.  1. ...,  1. -1.  1.]
+ [ 1.  1. -1. ..., -1. -1.  1.]]
+finish
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_10K.txt
+arguments: queries_10K.txt
+arguments: 10000
+arguments: 0
+arguments: 256
+arguments: 1000
+database built...
+[[ 1.  1. -1. ...,  1.  1.  1.]
+ [-1.  1.  1. ...,  1.  1. -1.]
+ [-1.  1. -1. ...,  1. -1.  1.]
+ ...,
+ [-1.  1.  1. ...,  1.  1.  1.]
+ [ 1. -1. -1. ...,  1.  1.  1.]
+ [-1.  1. -1. ..., -1. -1.  1.]]
+[[-1.  1. -1. ..., -1.  1.  1.]
+ [-1. -1.  1. ...,  1.  1.  1.]
+ [ 1. -1.  1. ...,  1.  1.  1.]
+ ...,
+ [-1. -1.  1. ...,  1. -1. -1.]
+ [ 1.  1. -1. ..., -1. -1. -1.]
+ [ 1. -1. -1. ...,  1.  1. -1.]]
+finish
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_100K.txt
+arguments: queries_100K.txt
+arguments: 100000
+arguments: 0
+arguments: 256
+arguments: 10000
+database built...
+[[ 1.  1. -1. ...,  1.  1.  1.]
+ [-1.  1.  1. ...,  1.  1. -1.]
+ [-1.  1. -1. ...,  1. -1.  1.]
+ ...,
+ [ 1.  1. -1. ..., -1. -1. -1.]
+ [-1.  1.  1. ...,  1.  1.  1.]
+ [ 1. -1. -1. ..., -1.  1.  1.]]
+[[-1.  1. -1. ..., -1. -1. -1.]
+ [-1. -1.  1. ...,  1.  1.  1.]
+ [ 1.  1.  1. ...,  1. -1.  1.]
+ ...,
+ [-1. -1. -1. ...,  1.  1.  1.]
+ [ 1.  1.  1. ...,  1. -1. -1.]
+ [ 1. -1.  1. ..., -1.  1.  1.]]
+finish
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_1M.txt
+arguments: queries_1M.txt
+arguments: 1000000
+arguments: 0
+arguments: 256
+arguments: 10000
+database built...
+[[ 1.  1. -1. ...,  1.  1.  1.]
+ [-1.  1.  1. ...,  1.  1. -1.]
+ [-1.  1. -1. ...,  1. -1.  1.]
+ ...,
+ [-1. -1. -1. ...,  1. -1.  1.]
+ [ 1. -1. -1. ...,  1.  1.  1.]
+ [-1. -1. -1. ...,  1.  1. -1.]]
+[[-1.  1.  1. ...,  1.  1.  1.]
+ [-1.  1.  1. ...,  1. -1. -1.]
+ [-1.  1. -1. ...,  1. -1. -1.]
+ ...,
+ [ 1. -1. -1. ...,  1. -1.  1.]
+ [ 1. -1. -1. ..., -1. -1. -1.]
+ [-1. -1.  1. ..., -1.  1. -1.]]
+finish
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_10M.txt
+arguments: queries_10M.txt
+arguments: 10000000
+arguments: 0
+arguments: 256
+arguments: 100000
+database built...
+[[ 1.  1. -1. ...,  1.  1.  1.]
+ [-1.  1.  1. ...,  1.  1. -1.]
+ [-1.  1. -1. ...,  1. -1.  1.]
+ ...,
+ [ 1.  1. -1. ..., -1.  1. -1.]
+ [-1. -1.  1. ...,  1.  1.  1.]
+ [ 1.  1. -1. ..., -1.  1.  1.]]
+[[ 1. -1. -1. ...,  1. -1.  1.]
+ [-1. -1.  1. ...,  1. -1.  1.]
+ [ 1. -1. -1. ..., -1. -1. -1.]
+ ...,
+ [-1.  1. -1. ...,  1. -1.  1.]
+ [ 1. -1. -1. ..., -1. -1.  1.]
+ [-1. -1.  1. ..., -1. -1. -1.]]
+finish
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_100M.txt
+arguments: queries_100M.txt
+arguments: 100000000
+arguments: 0
+arguments: 256
+arguments: 100000
+Traceback (most recent call last):
+  File "./00_building_database.py", line 50, in <module>
+    main(sys.argv[0:])
+  File "./00_building_database.py", line 34, in main
+    a_v = np.random.choice([-1, 1], size=(int(n_db), int(d))).astype('float32')
+  File "mtrand.pyx", line 1092, in mtrand.RandomState.choice (numpy/random/mtrand/mtrand.c:8229)
+MemoryError
+The script has the name ./00_building_database.py
+initiate: ./00_building_database.py
+('Number of arguments: ', 7, ' arguments.')
+check of the arguments
+arguments: ./00_building_database.py
+arguments: database_1B.txt
+arguments: queries_1B.txt
+arguments: 1000000000
+arguments: 0
+arguments: 256
+arguments: 100000
+Traceback (most recent call last):
+  File "./00_building_database.py", line 50, in <module>
+    main(sys.argv[0:])
+  File "./00_building_database.py", line 34, in main
+    a_v = np.random.choice([-1, 1], size=(int(n_db), int(d))).astype('float32')
+  File "mtrand.pyx", line 1043, in mtrand.RandomState.choice (numpy/random/mtrand/mtrand.c:7555)
+  File "mtrand.pyx", line 884, in mtrand.RandomState.randint (numpy/random/mtrand/mtrand.c:6529)
+MemoryError
+check from script
+initiate-building-db
